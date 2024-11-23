@@ -171,3 +171,25 @@ const trafficLights = prompt("Введіть колір (червоний, жо�
   alert("Йти");
   break
  }
+
+ //5.
+const num1 = Number(prompt("Введіть 1 число"));
+const action = prompt("Введіть дію яка буде виконуватись між цимим 2 числами");
+const num2 = prompt("Введіть 2 число");
+
+
+switch (action) {
+    case "+":
+  console.log(num1 + num2); 
+  //console.log(Number(num1) + Number(num2));
+  break
+    case "-":
+  console.log(num1 - num2);
+  break
+    case "*":
+  console.log(num1 * num2);
+  break
+    case "/":
+  console.log(num1 / num2);
+  break
+} 
